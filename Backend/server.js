@@ -18,9 +18,6 @@ const db=knex({
     }
 })
 
-
-
-
 const app=express();
 app.use(bodyParser.json());
 app.use(cors());
